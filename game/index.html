@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TELUK SURYA — Kota Pelabuhan</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #0b0f16; height: 100%; }
+  body { display: flex; flex-direction: column; align-items: center; justify-content: center; font-family: sans-serif; }
+  #wrap { position: relative; }
+  canvas { display: block; width: min(1280px, 96vw); height: auto; background: #7fae62; border-radius: 6px; }
+  #note { color: #8b93a3; font-size: 13px; margin-top: 10px; text-align: center; }
+  #note b { color: #ffd23d; }
+</style>
+</head>
+<body>
+<div id="wrap"><canvas id="game"></canvas></div>
+<div id="note"><b>TELUK SURYA</b> — WASD jalan &middot; Shift lari &middot; E masuk/keluar mobil &middot; F pukul/tembak &middot; P jeda &middot; M misi &middot; N musik</div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
